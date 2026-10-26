@@ -69,7 +69,7 @@
   if (!overrides || typeof overrides !== 'object' || Array.isArray(overrides)) overrides = {};
 
   const state = {
-    page: 'oc_home', minimized: false, loading: false, phase: '',
+    page: 'oc_home', minimized: true, loading: false, phase: '',
     view: 'all', search: '', category: 'all', sort: 'risk',
     includeTemporary: !!storeGet(TEMP_STORE, false),
     players: [], entries: [], members: [], selectedId: null,
